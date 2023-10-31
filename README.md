@@ -19,6 +19,9 @@ This project utilizes the following technologies and libraries:
 - Material-UI: A popular UI framework for React applications.
 - axios: A promise-based HTTP client for making requests to APIs.
 - react-icons: A library for adding icons to your React application.
+- react-vis: A library for adding chart to your React application.
+- avvvatars-react: A library for adding avatar to your React application.
+
 
 ## How to Use
 
