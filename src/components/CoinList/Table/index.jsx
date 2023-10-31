@@ -64,13 +64,13 @@ function Table({ searchText }) {
   };
 
   return (
-    <div className="h-[40.625rem] pb-12 overflow-auto">
+    <div className="h-[40.625rem] pb-20 overflow-auto">
       {isLoading ? (
         <Skeleton count={7} />
       ) : (
         <table className="min-w-full text-white mt-4 scroll-smooth">
           <thead>
-            <tr className="sticky -top-1 transition-top duration-300 bg-black">
+            <tr className="sticky -top-2 transition-top duration-300 bg-black">
               <th className="py-4 text-left text-gray-400 text-lg">Coin</th>
               <th className="py-4 text-left text-gray-400 text-lg">Price</th>
               <th className="py-4 text-right text-gray-400 text-lg">Balance</th>

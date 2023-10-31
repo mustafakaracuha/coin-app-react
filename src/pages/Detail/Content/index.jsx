@@ -38,7 +38,7 @@ function index() {
   };
 
   return (
-    <div className="max-w-md w-full h-screen bg-black mx-auto flex flex-col items-start overflow-auto pt-4 px-3 pb-3">
+    <div className="max-w-md w-full h-screen bg-black mx-auto flex flex-col items-start overflow-auto pt-4 px-3 pb-12">
       <Navigation />
       <div className="w-full h-screen flex flex-col items-start justify-start">
         {isLoading ? (
