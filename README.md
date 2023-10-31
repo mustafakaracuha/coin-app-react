@@ -9,8 +9,6 @@ This project is a web application for tracking the cryptocurrency market and obt
 - View real-time cryptocurrency prices
 - Explore historical price charts for cryptocurrencies
 - Review technical details of cryptocurrencies
-- Save and monitor favorite cryptocurrencies
-- Manage your cryptocurrency portfolio
 
 ## How to Use
 
