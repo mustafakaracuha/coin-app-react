@@ -14,19 +14,18 @@ This project is a web application for tracking the cryptocurrency market and obt
 
 ## How to Use
 
-1. Clone the project folder to your local machine.
-2. Install dependencies using the `npm install` or `yarn install` command.
-3. Start the project with `npm start` or `yarn start`.
-4. Open the application in your browser by navigating to `http://localhost:3000`.
+```bash
+# 1. Clone the project folder to your local machine.
+git clone https://github.com/your-username/your-repo.git
 
-## Contributing
+# 2. Install dependencies using npm or yarn.
+npm install
+# or
+yarn install
 
-If you'd like to contribute to this project, please follow our [Contribution Guide](CONTRIBUTING.md) and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+# 3. Start the project.
+npm start
+# or
+yarn start
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the license file for more details.
-
----
-
-**Note:** This is just a sample README. Make sure to replace the text, links, and images with information specific to your project. Be sure to clearly explain the purpose and usage of your project.
+# 4. Open the application in your browser by navigating to http://localhost:3000.
