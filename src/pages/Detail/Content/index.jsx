@@ -49,7 +49,7 @@ function index() {
               <>
                 <h1 className="text-white font-extrabold text-2xl mt-6">
                   {name.toUpperCase()}
-                  <span className="text-gray-500">
+                  <span className="text-gray-500 ml-2">
                     ({selectedCoin[0]?.name})
                   </span>
                 </h1>
