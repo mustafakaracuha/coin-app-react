@@ -46,7 +46,7 @@ function index() {
         <>
           {selectedCoin.length > 0 && (
             <>
-              <h1 className="text-white font-extrabold text-2xl mt-7">
+              <h1 className="text-white font-extrabold text-2xl mt-5">
                 {name.toUpperCase()}
                 <span className="text-gray-500 ml-2">
                   ({selectedCoin[0]?.name})

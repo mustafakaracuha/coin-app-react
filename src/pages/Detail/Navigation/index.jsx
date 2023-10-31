@@ -7,7 +7,7 @@ import { HiMenu } from "react-icons/hi";
 function index() {
   return (
     <>
-      <div className="sticky -top-5 h-32 w-full flex items-start justify-between bg-black">
+      <div className="sticky -top-5 w-full z-50 flex items-start justify-between bg-black">
         <Link
           to={"/"}
           className="w-[23.5rem] h-14 flex items-center justify-between"
