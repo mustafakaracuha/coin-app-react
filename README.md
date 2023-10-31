@@ -1,4 +1,4 @@
-# CryptoCurrency Tracker App
+# Crypto Tracker App
 
 This project is a web application for tracking the cryptocurrency market and obtaining detailed information about cryptocurrencies.
 
