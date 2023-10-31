@@ -17,7 +17,7 @@ function index({ selectedCoin }) {
   ];
 
   return (
-    <div className="w-full h-58 bg-[#1E1F24] mt-4 rounded-xl overflow-hidden">
+    <div className="w-full h-[25rem] bg-[#1E1F24] mt-4 rounded-xl">
       <div className="flex items-center justify-between">
         <div>
           <p className="text-gray-500 font-bold text-md ml-8">Last 24 hours</p>

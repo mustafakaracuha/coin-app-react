@@ -3,7 +3,7 @@ import React from "react";
 function index({ selectedCoin }) {
   return (
     <>
-      <div className="w-full h-[9rem] flex flex-col items-start justify-between px-5 pt-4 pb-4 bg-[#1E1F24] mt-4 rounded-xl overflow-hidden">
+      <div className="w-full h-[9rem] flex flex-col items-start justify-between px-5 pt-4 pb-4 bg-[#1E1F24] mt-4 rounded-xl">
         <div className="w-full flex items-center justify-between mb-2">
           <p className="text-gray-400 font-bold">Total Price</p>
           <p className="text-gray-400 font-semibold">

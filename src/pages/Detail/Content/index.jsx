@@ -38,32 +38,30 @@ function index() {
   };
 
   return (
-    <div className="max-w-md w-full h-screen bg-black mx-auto flex flex-col items-start overflow-auto pt-4 px-3 pb-12">
+    <div className="max-w-md w-full h-screen bg-black mx-auto flex flex-col items-start overflow-auto pt-4 pb-8 px-3">
       <Navigation />
-      <div className="w-full h-screen flex flex-col items-start justify-start">
-        {isLoading ? (
-          <Skeleton />
-        ) : (
-          <>
-            {selectedCoin.length > 0 && (
-              <>
-                <h1 className="text-white font-extrabold text-2xl mt-7">
-                  {name.toUpperCase()}
-                  <span className="text-gray-500 ml-2">
-                    ({selectedCoin[0]?.name})
-                  </span>
-                </h1>
-                <p className="text-gray-500 mt-2 font-semibold">
-                  {name.toUpperCase()} your assets and start earning
-                </p>
-                <Price selectedCoin={selectedCoin[0]} />
-                <Chart selectedCoin={selectedCoin[0]} />
-                <Details selectedCoin={selectedCoin[0]} />
-              </>
-            )}
-          </>
-        )}
-      </div>
+      {isLoading ? (
+        <Skeleton />
+      ) : (
+        <>
+          {selectedCoin.length > 0 && (
+            <>
+              <h1 className="text-white font-extrabold text-2xl mt-7">
+                {name.toUpperCase()}
+                <span className="text-gray-500 ml-2">
+                  ({selectedCoin[0]?.name})
+                </span>
+              </h1>
+              <p className="text-gray-500 mt-2 font-semibold">
+                {name.toUpperCase()} your assets and start earning
+              </p>
+              <Price selectedCoin={selectedCoin[0]} />
+              <Chart selectedCoin={selectedCoin[0]} />
+              <Details selectedCoin={selectedCoin[0]} />
+            </>
+          )}
+        </>
+      )}
     </div>
   );
 }
