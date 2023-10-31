@@ -8,5 +8,9 @@
         "source": "/all",
         "destination": "/index.html"
       }
+      {
+        "source": "/detail/coin/:name",
+        "destination": "/index.html"
+      }
     ]
   }
