@@ -2,7 +2,7 @@
 
 This project is a web application for tracking the cryptocurrency market and obtaining detailed information about cryptocurrencies.
 
-![Project Example](screenshot.png)
+![Project Example](https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/detail.png)
 
 ## Features
 
