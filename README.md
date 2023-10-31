@@ -10,6 +10,16 @@ This project is a web application for tracking the cryptocurrency market and obt
 - Explore historical price charts for cryptocurrencies
 - Review technical details of cryptocurrencies
 
+## Technologies and Libraries Used
+
+This project utilizes the following technologies and libraries:
+
+- React: A JavaScript library for building user interfaces.
+- React Router: A library for routing in React applications.
+- Material-UI: A popular UI framework for React applications.
+- axios: A promise-based HTTP client for making requests to APIs.
+- react-icons: A library for adding icons to your React application.
+
 ## How to Use
 
 ```bash
