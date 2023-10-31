@@ -1,17 +1,16 @@
 {
     "rewrites": [
-      {
-        "source": "/all",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/detail/coin/:path*",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
+        {
+            "source": "/all",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/detail/coin/:path*",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
     ]
-  }
-  
+}
