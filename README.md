@@ -16,6 +16,7 @@ This project utilizes the following technologies and libraries:
 
 - React: A JavaScript library for building user interfaces.
 - React Router: A library for routing in React applications.
+- TailwindCss: A utility-first CSS framework for rapidly building custom designs.
 - Material-UI: A popular UI framework for React applications.
 - axios: A promise-based HTTP client for making requests to APIs.
 - react-icons: A library for adding icons to your React application.
