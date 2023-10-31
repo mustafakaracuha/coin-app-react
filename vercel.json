@@ -9,7 +9,7 @@
         "destination": "/index.html"
       }
       {
-        "source": "/detail/coin",
+        "source": "/detail",
         "destination": "/index.html"
       }
     ]
