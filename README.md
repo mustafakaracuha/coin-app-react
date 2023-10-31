@@ -9,6 +9,7 @@ This project is a web application for tracking the cryptocurrency market and obt
 - View real-time cryptocurrency prices
 - Explore historical price charts for cryptocurrencies
 - Review technical details of cryptocurrencies
+- Search for specific cryptocurrencies by name or symbol
 
 ## Technologies and Libraries Used
 
@@ -22,7 +23,6 @@ This project utilizes the following technologies and libraries:
 - react-icons: A library for adding icons to your React application.
 - react-vis: A library for adding chart to your React application.
 - avvvatars-react: A library for adding avatar to your React application.
-
 
 ## How to Use
 
