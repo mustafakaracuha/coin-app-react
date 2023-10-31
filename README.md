@@ -2,8 +2,10 @@
 
 This project is a web application for tracking the cryptocurrency market and obtaining detailed information about cryptocurrencies.
 
-![Detail](https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/home.png)
-![Home](https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/detail.png)
+<p align="center">
+  <img src="https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/home.png" alt="Home" width="400" />
+  <img src="https://github.com/mustafakaracuha/crypto-tracker-app/blob/main/src/assets/images/detail.png" alt="Detail" width="400" />
+</p>
 
 ## Features
 
@@ -22,8 +24,8 @@ This project utilizes the following technologies and libraries:
 - Material-UI: A popular UI framework for React applications.
 - axios: A promise-based HTTP client for making requests to APIs.
 - react-icons: A library for adding icons to your React application.
-- react-vis: A library for adding chart to your React application.
-- avvvatars-react: A library for adding avatar to your React application.
+- react-vis: A library for adding a chart to your React application.
+- avvvatars-react: A library for adding an avatar to your React application.
 
 ## How to Use
 
