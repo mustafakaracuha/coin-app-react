@@ -1,7 +1,11 @@
 import axios from "axios";
 
 export const getTrendsCoins = () => {
-  return axios.get(`${import.meta.env.VITE_APP_API_URL}/v2/coins${import.meta.env.VITE_APP_TREND_COINS}`);
+  return axios.get(
+    `${import.meta.env.VITE_APP_API_URL}/v2/coins${
+      import.meta.env.VITE_APP_TREND_COINS
+    }`
+  );
 };
 
 export const getAllCoins = () => {

@@ -20,9 +20,7 @@ function index({ selectedCoin }) {
     <div className="w-full h-58 bg-[#1E1F24] mt-4 rounded-xl overflow-hidden">
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-gray-500 font-bold text-md ml-8">
-            Last 24 hours
-          </p>
+          <p className="text-gray-500 font-bold text-md ml-8">Last 24 hours</p>
           <h1 className=" ml-8 mt-3 text-white text-3xl font-bold">
             ${selectedCoin?.price?.toString().slice(0, 8)}
           </h1>

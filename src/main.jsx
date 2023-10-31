@@ -8,7 +8,6 @@ import Detail from "./pages/Detail/Content";
 import "../node_modules/react-vis/dist/style.css";
 import "./index.css";
 
-
 const router = createBrowserRouter([
   {
     path: "/",

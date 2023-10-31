@@ -12,7 +12,7 @@ function index() {
           to={"/"}
           className="w-[23.5rem] h-14 flex items-center justify-between"
         >
-        <FaArrowLeftLong className="text-gray-300 text-3xl transition-all duration-300 hover:text-white cursor-pointer" />
+          <FaArrowLeftLong className="text-gray-300 text-3xl transition-all duration-300 hover:text-white cursor-pointer" />
         </Link>
         <HiMenu
           size={29}
