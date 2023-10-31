@@ -39,7 +39,7 @@ function Table({ searchText }) {
         setCoinsData(response.data);
         setTimeout(() => {
           setIsLoading(false);
-        }, 500);
+        }, 1000);
       }
     } catch (apiError) {
       console.log(apiError);
@@ -55,7 +55,7 @@ function Table({ searchText }) {
         setCoinsData(response.data);
         setTimeout(() => {
           setIsLoading(false);
-        }, 500);
+        }, 1000);
       }
     } catch (apiError) {
       console.log(apiError);

@@ -29,7 +29,7 @@ function index() {
         setSelectedCoin(response.data);
         setTimeout(() => {
           setIsLoading(false);
-        }, 500);
+        }, 1000);
       }
     } catch (apiError) {
       console.log(apiError);
