@@ -49,7 +49,7 @@ function index({ selectedCoin }) {
         </div>
       </div>
 
-      <div className="mb-5 flex items-center justify-center gap-4">
+      <div className="mb-5 flex items-center justify-center gap-4 px-5">
         <button className="w-[11rem] h-12 text-white bg-[#587DF8] rounded-full font-bold">
           Deposit
         </button>
