@@ -28,4 +28,4 @@ npm start
 # or
 yarn start
 
-# 4. Open the application in your browser by navigating to http://localhost:3000.
+# 4. Open the application in your browser by navigating to http://localhost:5173.
