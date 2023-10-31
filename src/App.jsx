@@ -8,7 +8,7 @@ function App() {
   const [searchText, setSearchText] = useState("");
 
   return (
-    <div className="max-w-md w-full bg-black min-h-screen mx-auto flex flex-col items-start pt-4 px-4">
+    <div className="max-w-md w-full bg-black min-h-screen mx-auto flex flex-col items-start pt-4 px-4 overflow-hidden">
       <Search setSearchText={setSearchText}/>
       <div className="flex items-center justify-center">
         <NavLink

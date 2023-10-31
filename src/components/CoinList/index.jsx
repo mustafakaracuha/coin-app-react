@@ -3,9 +3,7 @@ import Table from "./Table";
 
 function index({ searchText }) {
   return (
-    <div className="w-full overflow-auto">
       <Table searchText={searchText} />
-    </div>
   );
 }
 
