@@ -64,7 +64,7 @@ function Table({ searchText }) {
   };
 
   return (
-    <div className="h-[650px] overflow-y-auto">
+    <div className="h-[40.625rem] pb-12 overflow-auto">
       {isLoading ? (
         <Skeleton count={7} />
       ) : (

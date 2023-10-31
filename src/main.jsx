@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div className="w-full max-h-screen bg-black">
+  <div className="w-full max-h-screen bg-black overflow-hidden">
     <RouterProvider router={router} />
   </div>
 );
